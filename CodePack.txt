@@ -4,3 +4,26 @@
         <img src="https://raw.githubusercontent.com/marcossonicteccursos/ShellShockers/main/dailych.jpg" style="width: 100%;height: 100%;  display: none;" id="img3">
         <img src="https://raw.githubusercontent.com/marcossonicteccursos/ShellShockers/main/summer.jpg" style="width: 100%;height: 100%;   display: none;" id="img4">
     </div>
+
+        function repeatimg() {
+            setTimeout(function() {
+                document.getElementById('img1').style.display = 'none';
+                document.getElementById('img2').style.display = 'block';
+                setTimeout(function() {
+                    document.getElementById('img2').style.display = 'none';
+                    document.getElementById('img3').style.display = 'block';
+                    setTimeout(function() {
+                        document.getElementById('img3').style.display = 'none';
+                        document.getElementById('img4').style.display = 'block';
+                        setTimeout(function() {
+                            document.getElementById('img4').style.display = 'none';
+                            document.getElementById('img1').style.display = 'block';
+                            // Chamar repeatimg() novamente após um ciclo completo
+                            repeatimg();
+                        }, 2000); // 1000 milissegundos = 1 segundo
+                    }, 2000); // 1000 milissegundos = 1 segundo
+                }, 2000); // 1000 milissegundos = 1 segundo
+            }, 2000); // 1000 milissegundos = 1 segundo            
+        }
+
+        repeatimg();

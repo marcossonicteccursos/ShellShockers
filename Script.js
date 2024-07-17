@@ -1,5 +1,5 @@
-repeatimgone();
-function repeatimgone() {
+repeatimg();
+function repeatimg() {
     setTimeout(function() {
         document.getElementById('img1').style.display = 'none';
         document.getElementById('img2').style.display = 'block';
@@ -13,7 +13,7 @@ function repeatimgone() {
                     document.getElementById('img4').style.display = 'none';
                     document.getElementById('img1').style.display = 'block';
                     // Chamar repeatimg() novamente após um ciclo completo
-                    repeatimgone();
+                    repeatimg();
                 }, 2000); // 1000 milissegundos = 1 segundo
             }, 2000); // 1000 milissegundos = 1 segundo
         }, 2000); // 1000 milissegundos = 1 segundo

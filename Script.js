@@ -1,5 +1,3 @@
-var code = 0;
-
 repeatimg();
 function repeatimg() {
     setTimeout(function() {

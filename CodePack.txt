@@ -5,6 +5,7 @@
         <img src="https://raw.githubusercontent.com/marcossonicteccursos/ShellShockers/main/summer.jpg" style="width: 100%;height: 100%;   display: none;" id="img4">
     </div>
 
+    <script>
         function repeatimg() {
             setTimeout(function() {
                 document.getElementById('img1').style.display = 'none';
@@ -26,4 +27,5 @@
             }, 2000); // 1000 milissegundos = 1 segundo            
         }
 
-        repeatimg();
+        repeatimg();        
+    </script>

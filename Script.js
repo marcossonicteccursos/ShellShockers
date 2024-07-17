@@ -20,4 +20,3 @@
         }
 
         repeatimg();
-hola, como tale?

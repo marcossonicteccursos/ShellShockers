@@ -20,4 +20,4 @@
         }
 
         repeatimg();
-voai dar serto em nome de jesus
+que coincidencia né?

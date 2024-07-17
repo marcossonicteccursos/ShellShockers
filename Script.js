@@ -20,4 +20,4 @@
         }
 
         repeatimg();
-que coincidencia né?
+hola, como tale?
